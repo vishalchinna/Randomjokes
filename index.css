@@ -1,0 +1,80 @@
+body{
+    margin: 0px;
+}
+.bg-container{
+    background-image: url("https://images.unsplash.com/photo-1496715976403-7e36dc43f17b?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&s=9091ab3c79e245e3c7a370b5af28f0df");
+    height: 100vh;
+    background-size: cover;
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.btn{
+    font-size: 20px;
+    padding: 12px 30px;
+    font-weight: 600;
+    background-color: transparent;
+    color: rgb(224, 224, 10);
+    border: 1px solid orange;
+    border-radius: 10px;
+}
+.btn:hover{
+    color: red;
+    background-color: #EC860A;
+    font-size: 21px;
+    transition: 0.2s;
+}
+.joke-box{
+    border: 3px solid orange;
+    margin: 80px 80px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 10px;
+    position: fixed;
+    width: 70%;
+}
+.joke{
+    color: white;
+    font: optional;
+    font-size: 30px;
+    flex-grow: 1;
+}
+.icn{
+    font-size: 35px;
+    margin-right: 18px;
+}
+.icn:hover{
+      transform: scale(1.1)
+}
+
+.icon-box{
+    border: 1px solid orange;
+    width: 180px;
+    padding: 8px 1px;
+    border-radius: 8px;
+    margin: 0px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.opt{
+    color: white;
+    font-size: 25px;
+    font: optional;
+    border: 1px solid orange;
+    width: 180px;
+    border-radius: 8px;
+    margin: 0px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.no{
+    display: block;
+    color: white;
+    font-size: 30px;
+}
